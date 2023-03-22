@@ -27,8 +27,8 @@ export const Container = styled.div`
     }
 
     button {
-        background: #6654da;
-        border: none;
+        background: black;
+        border: 0.1rem solid white;
         cursor: pointer;
         border-radius: 1rem;
         color: white;
@@ -39,7 +39,8 @@ export const Container = styled.div`
     }
 
     button:hover {
-        background: #5848c2;
+        background: white;
+        color: black;
     }
 
     span {

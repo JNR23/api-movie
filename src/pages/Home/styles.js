@@ -1,10 +1,23 @@
 import styled from "styled-components";
 
 export const ContainerMovie = styled.div`
+    height: 100vh;
+    width: 100vw;
+
     h1 {
         text-align: center;
         margin: 4rem;
     }
+`;
+
+export const MovieSearchBar = styled.div`
+    padding-top: 20vh;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
 `;
 
 export const MovieList = styled.ul`

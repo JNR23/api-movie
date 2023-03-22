@@ -35,11 +35,12 @@ export default function MovieDetails() {
                     <h1>{movie.title}</h1>
                     <span> 
                         {
-                            movie.sinopse === "" ? "Oops... Sinopse não encontrada" : `Sinopse: ${movie.sinopse}`                           
+                            movie.sinopse === "" ? "Oops... Sinopse não encontrada!" : `Sinopse: ${movie.sinopse}`                           
                         }
                     </span>
                     <span className="release-date">Data de lanaçamento: {movie.releaseDate}</span>
                     <Link to="/"><button>Voltar</button></Link>
+                    <Link to=""><button>Trailer</button></Link>
                 </div>
             </div>
         </Container>
